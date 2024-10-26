@@ -1,1 +1,4 @@
 Bitbucket Cloud is a Git-based code and CI/CD tool optimized for teams using Jira.
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
