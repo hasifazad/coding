@@ -1,0 +1,1 @@
+Bitbucket Cloud is a Git-based code and CI/CD tool optimized for teams using Jira.
