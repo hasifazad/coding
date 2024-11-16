@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background-color: aqua;
+
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+
+}
+
+.logo {
+    font-family: cursive;
+    color: red;
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.menus {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@media(max-width:600px) {
+
+    .logo {
+       justify-content: center;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .menus {
+        flex-direction: column;
+
+        gap: 5px;
+    }
+}
